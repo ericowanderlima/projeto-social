@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+
+a{
+    display: block;
+    width: 100vw;
+    padding: 10px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    background-color: rgb(243, 47, 47);
+    color: black;
+}
