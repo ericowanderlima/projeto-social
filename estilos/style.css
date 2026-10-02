@@ -7,9 +7,10 @@ body{
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
+  
 
   div.celular{
-    width: 98vw;
+    max-width: 95%;
 
     iframe{
       position: absolute;
@@ -18,7 +19,10 @@ body{
       height: 470px;
       width: 265px;
 
-      transform: translate(50%, 50%);
+      transform: translate(44%, 50%);
+      background-image: url('..//imagens/tela-home.jpg');
+      background-size: cover;
+      background-attachment: fixed;
     }
 
     img{
@@ -30,7 +34,7 @@ body{
   div.logos{
     position: absolute;
     top: 0px;
-    left: 93%;
+    left: 80%;
     height: 90vh;
     width: 100px;
     margin: auto;
